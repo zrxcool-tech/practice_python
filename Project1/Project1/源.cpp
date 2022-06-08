@@ -56,10 +56,16 @@ void  abd(int x, int y, int q)
 	}
 		
 }
+void transfer(int a)
+{
+	a = 0;
+	cout << a;
+
+}
 int main() {
 	int x, y,q;
 	cin >> x>> y>>q;
 	 abd(x, y,q);
 	 cout << "this is test";
-	
+	 transfer(q);
 }

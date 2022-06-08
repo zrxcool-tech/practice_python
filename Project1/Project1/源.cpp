@@ -60,5 +60,6 @@ int main() {
 	int x, y,q;
 	cin >> x>> y>>q;
 	 abd(x, y,q);
+	 cout << "this is test";
 	
 }
